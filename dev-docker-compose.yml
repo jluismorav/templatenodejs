@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  api:
+    build:
+      context: .
+    volumes:
+      - ./:/templatenodejs
+    command: /bin/bash -c "npm run dev-start"
+    ports:
+      - "3000:3000"

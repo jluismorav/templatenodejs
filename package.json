@@ -1,0 +1,25 @@
+{
+  "name": "templatenodejs",
+  "version": "1.0.0",
+  "description": "Templade project NodeJs Docker Deev",
+  "main": "index.js",
+  "scripts": {
+    "dev-start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jluismorav/templatenodejs.git"
+  },
+  "author": "jluismorav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jluismorav/templatenodejs/issues"
+  },
+  "homepage": "https://github.com/jluismorav/templatenodejs#readme",
+  "dependencies": {
+    "cross-env": "7.0.3",
+    "express": "4.17.1",
+    "nodemon": "2.0.7"
+  }
+}
