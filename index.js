@@ -1,3 +1,10 @@
 (async () => {
-    console.log("Hola Mundo");
+    const holamundo = async (...param) => {
+
+        param.forEach((p) => {
+            console.log(p);
+        })
+    }
+    await holamundo('Hola', 'Mundo', 'tus');
+
 })();
